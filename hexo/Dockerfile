@@ -7,7 +7,6 @@ RUN apt-get install -y git vim curl
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 RUN apt-get install -y nodejs
 
-RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install hexo-cli -g
 
 COPY build_blog.sh /build_blog.sh
