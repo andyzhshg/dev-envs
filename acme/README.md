@@ -9,5 +9,5 @@ docker run -v /c/develop/cert:/cert \
     -e "Ali_Secret=xxx_your_secret" \
     -e "DOMAIN=up4dev.com" \
     --rm \
-    acme-wildcard
+    andyzhshg/acme-wildcard
 ```
