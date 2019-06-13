@@ -9,3 +9,4 @@ RUN go get github.com/Shopify/sarama
 RUN go get github.com/gomodule/redigo/redis
 RUN go get github.com/huandu/skiplist
 RUN go get github.com/BurntSushi/toml
+RUN go get github.com/garyburd/redigo/redis
