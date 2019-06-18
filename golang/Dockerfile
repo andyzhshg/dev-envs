@@ -12,3 +12,4 @@ RUN go get github.com/BurntSushi/toml
 RUN go get github.com/garyburd/redigo/redis
 # fix golang.org/x/net/trace dumplate error
 RUN rm -rf /go/src/github.com/coreos/etcd/vendor/golang.org/x/net/trace
+RUN rm -tf /go/src/go.etcd.io/etcd/vendor/golang.org/x/net/trace
